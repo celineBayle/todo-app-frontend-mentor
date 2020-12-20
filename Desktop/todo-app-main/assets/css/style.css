@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62%;
+  font-family: "josefin sans", arial;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: url("/assets/images/bg-desktop-light.jpg") no-repeat;
+  background-position: top;
+}
+
+.container {
+  width: 35vw;
+}
+
+.container .header {
+  height: 30%;
+}
+
+.container .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+.container .todo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 6rem;
+  background-color: #FFF;
+  border-radius: 5px;
+  border-bottom: 1px solid #d2d3db;
+}
+
+.container .radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  border: 1px solid #d2d3db;
+  margin: 1.8rem;
+}
+
+.container .addTodo {
+  border: none;
+  width: 80%;
+  outline: none;
+}
+
+.container .section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 0px 80px -20px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 80px -20px rgba(0, 0, 0, 0.75);
+}
+
+.container .done .radio {
+  background-color: linear-gradient #57ddff to #c058f3;
+}
+
+.container .done .addTodo {
+  text-decoration: line-through;
+}
+
+.container .todo--select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+}
+
+.container .todo--select .selectorList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .todo--select .selector {
+  margin-left: 2rem;
+}
+
+.container .todo--select .active {
+  font-weight: 800;
+  color: #3a7bfd;
+}
+
+.container .info {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.container .attribution {
+  position: absolute;
+  bottom: 2rem;
+  left: 42%;
+}
+/*# sourceMappingURL=style.css.map */
